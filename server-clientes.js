@@ -36,8 +36,8 @@ app.get('/clientes', (request, response) => {
 app.get('/clientes/:id', (request, response) => {
     const id = request.params.id
 
-    const clientes = clientes.filter(item => item.id == id)
-    return response.json(clientes)
+    const cliente = clientes.filter(item => item.id == id)
+    return response.json(cliente)
 })
 
 
