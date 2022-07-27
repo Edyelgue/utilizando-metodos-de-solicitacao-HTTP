@@ -33,6 +33,13 @@ app.get('/clientes', (request, response) => {
     return response.status(200).json({clientes})
 })
 
+app.get('/clientes/:id', (request, response) => {
+    const id = request.params.id
+
+    const clientes = clientes.filter(item => item.id == id)
+    return response.json(clientes)
+})
+
 
 //========UTILIZANDO MÉTODO POST========
 
