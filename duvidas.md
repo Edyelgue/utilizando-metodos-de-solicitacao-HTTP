@@ -1,1 +1,0 @@
-1 - Utilizando o método 'delete' eu deleto um dado permanentemente do banco de dados? Mas e se eu quiser apenas gerar um relatório e não quero trazer um dado específico?
